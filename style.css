@@ -1,0 +1,182 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+header{
+  padding:5px;
+  background: url('pexels-jakub-novacek-924824.jpg');
+  background-repeat: no-repeat;
+  background-size:cover;
+  color:white;
+  text-align: center;
+}
+header h4{
+  text-transform: uppercase;
+  color:white;
+}
+header h4 span{
+  color:grey;
+}
+.header-one{
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+}
+header li{
+  display: inline;
+  list-style: none;
+  font-size:8px;
+  text-transform: uppercase;
+  gap:10px;
+}
+ h3{
+  font-size:25px;
+  font-weight:700;
+}
+ header h3 span{
+  color:#9CCD62;
+}
+header button{
+  width:12%;
+  font-style: italic;
+  background: inherit;
+  color:white;
+  border:0.5px solid #9CCD62;
+  border-radius: 30px;
+}
+body{
+  background:#F6F8E2;
+  color:#000318;
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  max-height:100vh;
+}
+.container{
+  padding:10px;
+}
+.ico{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap:1rem;
+  padding:15px;
+}
+.ico div{
+  background: #000318;
+  border-radius: 8px;
+  padding:5px;
+  font-size:10px;
+  text-align: center;
+  color:hsl(30, 18%, 57%);
+  box-shadow: 3px 3px 5px #000318;
+}
+.ico div span{
+  font-size:30px;
+  font-weight:700;
+}
+.ico .blue1 span{
+  color:#3C3D42;
+}
+.ico .yellow span{
+  color:#9CCD62;
+}
+.ico .red span{
+  color:#F6FAE2;
+}
+.ico .blue2 span{
+  color:#E0DDCA;
+}
+.third{
+  color:#000318;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap:0.8rem;
+  text-align: center;
+  padding:15px;
+}
+.third h3 span{
+  color:#9CCD26;
+}
+.third button{
+  width:150px;
+  height:30px;
+  margin:auto;
+  border-radius: 30px;
+  border:1px solid #000318;
+  color:white;
+  background: #000318;
+  box-shadow: 2px 2px 3px #000318;
+}
+button{
+  text-transform: uppercase;
+}
+.fourth{
+  text-align: center;
+  padding:10px;
+}
+.spons{
+  display: flex;
+ /* grid-template-columns: repeat(5, 1fr);*/
+  justify-content: center;
+  align-items: center;
+  gap:1rem;
+  padding-top:10px;
+}
+.spons img{
+  width:15%;
+}
+ .roles{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   align-items: center;
+   justify-content: center;
+   gap:4px;
+   padding:3px;
+   padding-top:20px;
+ }
+.roles img{
+  mix-blend-mode: multiply;
+  width:20%;
+}
+.roles div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  gap:5px;
+  padding:5px;
+  border:1px solid black;
+}
+.roles p{
+  font-size:8px;
+}
+.lastdiv{
+  padding-top:20px;
+}
+.lastdiv button{
+  width:150px;
+  height:30px;
+  display: block;
+  margin: auto;
+  border-radius: 30px;
+  border:1px solid #000318;
+  color:white;
+  background: #000318;
+  box-shadow: 2px 2px 3px #000318;
+}
+h3, h4, h5, h6{
+  font-family: "Poppins" , sans-serif;
+}
+@media(min-width:480px){
+  .spons{
+    gap:2rem;
+  }
+  .spons img{
+    width:5%;
+  }
+  .roles img{
+    width:10%;
+  }
+}
